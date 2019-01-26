@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05C4552621E79BC1009D1EE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C4552521E79BC1009D1EE9 /* AppDelegate.swift */; };
+		05C4552821E79BC1009D1EE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C4552721E79BC1009D1EE9 /* ViewController.swift */; };
+		05C4552B21E79BC1009D1EE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C4552921E79BC1009D1EE9 /* Main.storyboard */; };
+		05C4552E21E79BC1009D1EE9 /* eMonument.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05C4552C21E79BC1009D1EE9 /* eMonument.xcdatamodeld */; };
+		05C4553021E79BC3009D1EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C4552F21E79BC3009D1EE9 /* Assets.xcassets */; };
+		05C4553321E79BC3009D1EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C4553121E79BC3009D1EE9 /* LaunchScreen.storyboard */; };
+		05C4553B21E79EC1009D1EE9 /* Monument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C4553A21E79EC1009D1EE9 /* Monument.swift */; };
+		05C4553E21E7A967009D1EE9 /* Monuments+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C4553C21E7A967009D1EE9 /* Monuments+CoreDataClass.swift */; };
+		05C4553F21E7A967009D1EE9 /* Monuments+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C4553D21E7A967009D1EE9 /* Monuments+CoreDataProperties.swift */; };
+		05C4554121E7FB51009D1EE9 /* BasicPanel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C4554021E7FB51009D1EE9 /* BasicPanel.storyboard */; };
+		05C4554321E7FCD5009D1EE9 /* PanelOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C4554221E7FCD5009D1EE9 /* PanelOptions.swift */; };
+		05C4554521E7FD12009D1EE9 /* PanelOptions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C4554421E7FD12009D1EE9 /* PanelOptions.storyboard */; };
+		7BEC3B060191B1993AC9C976 /* Pods_eMonument.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A24A5DAF08C092CA5D59008 /* Pods_eMonument.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05C4552221E79BC1009D1EE9 /* eMonument.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eMonument.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05C4552521E79BC1009D1EE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05C4552721E79BC1009D1EE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05C4552A21E79BC1009D1EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05C4552D21E79BC1009D1EE9 /* eMonument.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = eMonument.xcdatamodel; sourceTree = "<group>"; };
+		05C4552F21E79BC3009D1EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05C4553221E79BC3009D1EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05C4553421E79BC3009D1EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05C4553A21E79EC1009D1EE9 /* Monument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monument.swift; sourceTree = "<group>"; };
+		05C4553C21E7A967009D1EE9 /* Monuments+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Monuments+CoreDataClass.swift"; sourceTree = "<group>"; };
+		05C4553D21E7A967009D1EE9 /* Monuments+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Monuments+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		05C4554021E7FB51009D1EE9 /* BasicPanel.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = BasicPanel.storyboard; path = UI/BasicPanel.storyboard; sourceTree = "<group>"; };
+		05C4554221E7FCD5009D1EE9 /* PanelOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PanelOptions.swift; path = Panels/PanelOptions.swift; sourceTree = "<group>"; };
+		05C4554421E7FD12009D1EE9 /* PanelOptions.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = PanelOptions.storyboard; path = Panels/PanelOptions.storyboard; sourceTree = "<group>"; };
+		0909E34D5698C7250E6B07B8 /* Pods-eMonument.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eMonument.release.xcconfig"; path = "Pods/Target Support Files/Pods-eMonument/Pods-eMonument.release.xcconfig"; sourceTree = "<group>"; };
+		4A24A5DAF08C092CA5D59008 /* Pods_eMonument.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eMonument.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5AD88094792A571C7B3B0BD /* Pods-eMonument.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eMonument.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eMonument/Pods-eMonument.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05C4551F21E79BC1009D1EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BEC3B060191B1993AC9C976 /* Pods_eMonument.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05C4551921E79BC1009D1EE9 = {
+			isa = PBXGroup;
+			children = (
+				05C4553C21E7A967009D1EE9 /* Monuments+CoreDataClass.swift */,
+				05C4553D21E7A967009D1EE9 /* Monuments+CoreDataProperties.swift */,
+				05C4552421E79BC1009D1EE9 /* eMonument */,
+				05C4552321E79BC1009D1EE9 /* Products */,
+				645F28D8D30E3B795A88395D /* Pods */,
+				2581BC9E2C2634F760C249C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		05C4552321E79BC1009D1EE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05C4552221E79BC1009D1EE9 /* eMonument.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05C4552421E79BC1009D1EE9 /* eMonument */ = {
+			isa = PBXGroup;
+			children = (
+				05C4552521E79BC1009D1EE9 /* AppDelegate.swift */,
+				05C4552721E79BC1009D1EE9 /* ViewController.swift */,
+				05C4552921E79BC1009D1EE9 /* Main.storyboard */,
+				05C4554021E7FB51009D1EE9 /* BasicPanel.storyboard */,
+				05C4554221E7FCD5009D1EE9 /* PanelOptions.swift */,
+				05C4554421E7FD12009D1EE9 /* PanelOptions.storyboard */,
+				05C4553A21E79EC1009D1EE9 /* Monument.swift */,
+				05C4552F21E79BC3009D1EE9 /* Assets.xcassets */,
+				05C4553121E79BC3009D1EE9 /* LaunchScreen.storyboard */,
+				05C4553421E79BC3009D1EE9 /* Info.plist */,
+				05C4552C21E79BC1009D1EE9 /* eMonument.xcdatamodeld */,
+			);
+			path = eMonument;
+			sourceTree = "<group>";
+		};
+		2581BC9E2C2634F760C249C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A24A5DAF08C092CA5D59008 /* Pods_eMonument.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		645F28D8D30E3B795A88395D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5AD88094792A571C7B3B0BD /* Pods-eMonument.debug.xcconfig */,
+				0909E34D5698C7250E6B07B8 /* Pods-eMonument.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05C4552121E79BC1009D1EE9 /* eMonument */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05C4553721E79BC3009D1EE9 /* Build configuration list for PBXNativeTarget "eMonument" */;
+			buildPhases = (
+				1E39C259CE5E849C9B57A6E9 /* [CP] Check Pods Manifest.lock */,
+				05C4551E21E79BC1009D1EE9 /* Sources */,
+				05C4551F21E79BC1009D1EE9 /* Frameworks */,
+				05C4552021E79BC1009D1EE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eMonument;
+			productName = eMonument;
+			productReference = 05C4552221E79BC1009D1EE9 /* eMonument.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05C4551A21E79BC1009D1EE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "VIGUIER Julien";
+				TargetAttributes = {
+					05C4552121E79BC1009D1EE9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 05C4551D21E79BC1009D1EE9 /* Build configuration list for PBXProject "eMonument" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05C4551921E79BC1009D1EE9;
+			productRefGroup = 05C4552321E79BC1009D1EE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05C4552121E79BC1009D1EE9 /* eMonument */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05C4552021E79BC1009D1EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C4553321E79BC3009D1EE9 /* LaunchScreen.storyboard in Resources */,
+				05C4553021E79BC3009D1EE9 /* Assets.xcassets in Resources */,
+				05C4554121E7FB51009D1EE9 /* BasicPanel.storyboard in Resources */,
+				05C4554521E7FD12009D1EE9 /* PanelOptions.storyboard in Resources */,
+				05C4552B21E79BC1009D1EE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E39C259CE5E849C9B57A6E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eMonument-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05C4551E21E79BC1009D1EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C4553E21E7A967009D1EE9 /* Monuments+CoreDataClass.swift in Sources */,
+				05C4553B21E79EC1009D1EE9 /* Monument.swift in Sources */,
+				05C4553F21E7A967009D1EE9 /* Monuments+CoreDataProperties.swift in Sources */,
+				05C4552E21E79BC1009D1EE9 /* eMonument.xcdatamodeld in Sources */,
+				05C4552821E79BC1009D1EE9 /* ViewController.swift in Sources */,
+				05C4554321E7FCD5009D1EE9 /* PanelOptions.swift in Sources */,
+				05C4552621E79BC1009D1EE9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05C4552921E79BC1009D1EE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05C4552A21E79BC1009D1EE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05C4553121E79BC3009D1EE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05C4553221E79BC3009D1EE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05C4553621E79BC3009D1EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05C4553921E79BC3009D1EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0909E34D5698C7250E6B07B8 /* Pods-eMonument.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = eMonument/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.eMonument;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05C4551D21E79BC1009D1EE9 /* Build configuration list for PBXProject "eMonument" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C4553621E79BC3009D1EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05C4553721E79BC3009D1EE9 /* Build configuration list for PBXNativeTarget "eMonument" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C4553921E79BC3009D1EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		05C4552C21E79BC1009D1EE9 /* eMonument.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				05C4552D21E79BC1009D1EE9 /* eMonument.xcdatamodel */,
+			);
+			currentVersion = 05C4552D21E79BC1009D1EE9 /* eMonument.xcdatamodel */;
+			path = eMonument.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 05C4551A21E79BC1009D1EE9 /* Project object */;
+}
